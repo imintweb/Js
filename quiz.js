@@ -33,7 +33,7 @@
            ---------------------------*/
           questionCount_text: "السؤال %current_index من %totalQuestions",
           backButton_text: "السؤال السابق",
-          nextButton_text: "الؤال التالي",
+          nextButton_text: "السؤال التالي",
           completeButton_text: "إنهاء الاختبار",
           viewResultsButton_text: "عرض النتائج",
           resultsHeader_text: "إليك ما حققته",
