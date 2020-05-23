@@ -2,7 +2,8 @@
  * name    : dlxQuiz jQuery Plugin
  * author  : Chyno Deluxe
  * version : 1.0.0
- *
+ *تم تعريب هذه الأسكربت وتعديله ليعمل علي بلوجر من طرف مينت ويب www.imintweb
+
  * copyright (c) 2016 Chyno Deluxe - http://www.chynodeluxe.com
  * license MIT
  */
