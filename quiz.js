@@ -37,7 +37,7 @@
           completeButton_text: "إنهاء الاختبار",
           viewResultsButton_text: "عرض النتائج",
           resultsHeader_text: "إليك ما حققته",
-          quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions سؤال بشكل صحيح",
+          quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions من الأسئلة بشكل صحيح",
           quizScoreMessage_text: "",
           quizScoreRank_text: {
             a: "نتيجة جيده !",
@@ -533,11 +533,11 @@
               //if answer was incorrect
               if ( !questions[ index ].answerCorrect ) {
                 //display user answer
-                resultsHTML += '<strong>Your Answer: </strong>';
+                resultsHTML += '<strong> اجابتك: </strong>';
                 resultsHTML += questions[ index ].selected + '<br>';
               }
               //display correct answer
-              resultsHTML += '<strong>Correct Answer: </strong>';
+              resultsHTML += '<strong> الإجاية الصحيحة: </strong>';
               resultsHTML += questions[ index ].a + '<br>';
               //close p tag
               resultsHTML += '</p>';
