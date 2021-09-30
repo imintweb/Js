@@ -72,18 +72,18 @@ function getPostDate(e, t, a, o, r, i) {
     "undefined" != typeof monthNames
       ? monthNames
       : [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
-          "August",
-          "September",
-          "October",
-          "November",
-          "December",
+          "يناير",
+          "فيراير",
+          "مارس",
+          "أبريل",
+          "مايو",
+          "يونيو",
+          "يوليو",
+          "أغسطص",
+          "سبتمبر",
+          "أكتوبر",
+          "نوفمبر",
+          "ديسمبر",
         ]),
     (dateFormat =
       "undefined" != typeof dateFormat ? dateFormat : "{m} {d}, {y}");
